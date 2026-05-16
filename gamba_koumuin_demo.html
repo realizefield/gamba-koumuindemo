@@ -126,7 +126,22 @@
   .s10 .card-category{ background:#1B2A4A; color:white; }
   .s10 .card-footer-link{ background:#fdeff0; color:#1B2A4A; }
 
-  /* ── FEATURES ── */
+  /* SPI 非言語 */
+  .s11 .card-emoji{ background:#fef0f0; }
+  .s11 .card-category{ background:#c0392b; color:white; }
+  .s11 .card-footer-link{ background:#fef0f0; color:#c0392b; }
+
+  /* SPIセクション区切り */
+  .spi-section-band {
+    background: linear-gradient(90deg, #c0392b 0%, #e74c3c 50%, #c0392b 100%);
+    padding: 10px 24px;
+    text-align: center;
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 0.08em;
+  }
+
   .features-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-bottom:48px; }
   @media(max-width:600px){ .features-grid{ grid-template-columns:1fr; } }
   .feature-item { background:var(--white); border-radius:var(--radius); padding:20px 16px; text-align:center; box-shadow:0 2px 8px rgba(0,0,0,0.05); }
@@ -192,6 +207,7 @@
   <span class="exam-badge">警察官・消防官</span>
   <span class="exam-badge">裁判所・国税専門官</span>
   <span class="exam-badge">教員採用試験</span>
+  <span class="exam-badge" style="background:rgba(192,57,43,0.22);border-color:rgba(255,150,130,0.6);color:#ffb3a7;">SPI 非言語（就活・転職）</span>
 </div>
 
 <div class="about-band">▶ 以下のコンテンツは無料でお試しいただけます</div>
@@ -411,6 +427,58 @@
         <li>社会科学（政治・経済・社会）</li>
       </ul>
     </div>
+  </div>
+
+  <!-- ── SPI 非言語 ── -->
+  <div class="section-title" style="margin-top:0;">SPI 非言語対策コース（就活・転職希望者向け）</div>
+  <p style="font-size:0.78rem;color:var(--muted);line-height:1.8;margin-bottom:12px;margin-top:-16px;">
+    公務員試験の数的処理と出題傾向が重なるSPI非言語は、就活・転職活動中の方にも最適です。<br>
+    GAMBAのSPIコースは基礎から最難関パターンまで段階的に学べる全6単元構成です。
+  </p>
+
+  <!-- SPI 試験区分インフォ -->
+  <div style="background:#fff8f0;border:1.5px solid #f5a623;border-radius:10px;padding:12px 16px;margin-bottom:22px;display:flex;gap:12px;align-items:flex-start;">
+    <span style="font-size:1.3rem;flex-shrink:0;margin-top:1px;">📋</span>
+    <div>
+      <div style="font-size:0.78rem;font-weight:700;color:#9a5d00;margin-bottom:5px;">公務員試験でのSPI実施区分について</div>
+      <div style="font-size:0.75rem;color:#7a4a00;line-height:1.9;">
+        SPIは主に <strong>地方上級（大卒程度）</strong> の筆記試験として導入されている自治体があります。<br>
+        ただし、<strong>採用するかどうかは各自治体によって異なります</strong>。<br>
+        受験を検討している方は、必ず <strong>各自治体の採用ページ・募集要項</strong> でご確認ください。
+      </div>
+    </div>
+  </div>
+  <div class="cards-grid" style="margin-bottom:48px;">
+
+    <!-- SPI 損益算 -->
+    <a class="subject-card s11" href="https://realizefield.github.io/spi/SPI_soneki_index.html" target="_blank">
+      <div class="card-top">
+        <div class="card-emoji">💰</div>
+        <div class="card-info">
+          <div class="card-category">SPI 非言語</div>
+          <div class="card-name">損益算 完全マスターコース</div>
+          <div class="card-level">⭐〜⭐⭐⭐　全6単元・180問以上</div>
+          <div class="shared-badge">🏢 就活・転職・公務員試験対応</div>
+        </div>
+      </div>
+      <div class="card-desc">割合・値引き・方程式・仮置き・等式チェーンまで、SPIで頻出の損益算を体系的に学習。解説→演習→確認の3段階構成で、初学者から上級パターンまで対応しています。</div>
+      <div class="card-footer-link">学習する <span>→</span></div>
+    </a>
+
+    <!-- SPI コース Coming Soon -->
+    <div class="subject-card s11" style="opacity:0.55;cursor:default;">
+      <div class="card-top">
+        <div class="card-emoji">📐</div>
+        <div class="card-info">
+          <div class="card-category">SPI 非言語</div>
+          <div class="card-name">速さ・割合・確率（準備中）</div>
+          <div class="card-level">⭐〜⭐⭐⭐　順次公開予定</div>
+        </div>
+      </div>
+      <div class="card-desc">速さ・旅人算・割合・仕事算・確率など、SPI非言語の主要単元を順次追加予定です。損益算コース修了後にご利用いただけます。</div>
+      <div class="card-footer-link" style="opacity:0.6;">準備中 <span>—</span></div>
+    </div>
+
   </div>
 
   <!-- ── 特長 ── -->
