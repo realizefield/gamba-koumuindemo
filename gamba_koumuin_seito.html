@@ -132,12 +132,14 @@
   .s11 .card-footer-link{ background:#fef0f0; color:#c0392b; }
 
   /* 英文法 */
-  .s-sx .card-emoji{ background:#e0f4f1; }
-  .s-sx .card-category{ background:#00796b; color:white; }
-  .s-sx .card-footer-link{ background:#e0f4f1; color:#00796b; }
-  .s-sw .card-emoji{ background:#e1f0fb; }
-  .s-sw .card-category{ background:#0277bd; color:white; }
-  .s-sw .card-footer-link{ background:#e1f0fb; color:#0277bd; }
+  /* 非言語の「まとめ・補講」カード：赤系の中で少し色を変える */
+  .s-sx .card-emoji{ background:#fdeee3; }
+  .s-sx .card-category{ background:#d9622b; color:white; }
+  .s-sx .card-footer-link{ background:#fdeee3; color:#c2511f; }
+  /* SPI-H 言語（国語） */
+  .s-h .card-emoji{ background:#e4f2e6; }
+  .s-h .card-category{ background:#2e7d4f; color:white; }
+  .s-h .card-footer-link{ background:#e4f2e6; color:#2e7d4f; }
   .s12 .card-emoji{ background:#e8f5e9; }
   .s12 .card-category{ background:#2e7d32; color:white; }
   .s12 .card-footer-link{ background:#e8f5e9; color:#2e7d32; }
@@ -266,6 +268,36 @@
   </div>
   <div class="cards-grid" style="margin-bottom:48px;">
 
+    <!-- SPI 計算の基礎 -->
+    <a class="subject-card s11" href="https://realizefield.github.io/spi/SPI_kiso_index.html" target="_blank">
+      <div class="card-top">
+        <div class="card-emoji">🔥</div>
+        <div class="card-info">
+          <div class="card-category">SPI 非言語</div>
+          <div class="card-name">計算の基礎（分数〜連立方程式）</div>
+          <div class="card-level">⭐　全6分野・42単元</div>
+          <div class="shared-badge">🏢 就活・転職・公務員試験対応</div>
+        </div>
+      </div>
+      <div class="card-desc">分数・小数・正負の数・文字式・一次方程式・連立方程式。計算をわすれてしまった方は、ここから。学習するたびにパネルの色が赤・橙・黄…と変わります。</div>
+      <div class="card-footer-link">学習する <span>→</span></div>
+    </a>
+
+    <!-- SPI 割合・比 -->
+    <a class="subject-card s11" href="https://realizefield.github.io/spi/SPI_wariai_index.html" target="_blank">
+      <div class="card-top">
+        <div class="card-emoji">📊</div>
+        <div class="card-info">
+          <div class="card-category">SPI 非言語</div>
+          <div class="card-name">割合・比 ていねいマスターコース</div>
+          <div class="card-level">⭐〜⭐⭐⭐　全17パターン・170問</div>
+          <div class="shared-badge">🏢 就活・転職・公務員試験対応</div>
+        </div>
+      </div>
+      <div class="card-desc">％の意味から、増える・減る、増加率、比と比例配分、食塩水の濃度まで。数学が苦手な方は、ここから始めるのがおすすめです。「解説 → 例題 → 演習 → 総合確認」の順に、パターンごとに学べます。</div>
+      <div class="card-footer-link">学習する <span>→</span></div>
+    </a>
+
     <!-- SPI 損益算 -->
     <a class="subject-card s11" href="https://realizefield.github.io/spi/SPI_soneki_index.html" target="_blank">
       <div class="card-top">
@@ -297,7 +329,7 @@
     </a>
 
     <!-- SPI 食塩水補講 -->
-    <a class="subject-card s-sw" href="https://realizefield.github.io/spi/SPI_sw_index.html" target="_blank">
+    <a class="subject-card s-sx" href="https://realizefield.github.io/spi/SPI_sw_index.html" target="_blank">
       <div class="card-top">
         <div class="card-emoji">🧪</div>
         <div class="card-info">
@@ -308,21 +340,6 @@
         </div>
       </div>
       <div class="card-desc">食塩水が苦手な方のための補講。「500人の3％は？」と図で割合の便利さを知るところから、濃度・水を加える・混ぜる・入れかえまで。ヒント1・2・3つきです。</div>
-      <div class="card-footer-link">学習する <span>→</span></div>
-    </a>
-
-    <!-- SPI 割合・比 -->
-    <a class="subject-card s11" href="https://realizefield.github.io/spi/SPI_wariai_index.html" target="_blank">
-      <div class="card-top">
-        <div class="card-emoji">📊</div>
-        <div class="card-info">
-          <div class="card-category">SPI 非言語</div>
-          <div class="card-name">割合・比 ていねいマスターコース</div>
-          <div class="card-level">⭐〜⭐⭐⭐　全17パターン・170問</div>
-          <div class="shared-badge">🏢 就活・転職・公務員試験対応</div>
-        </div>
-      </div>
-      <div class="card-desc">％の意味から、増える・減る、増加率、比と比例配分、食塩水の濃度まで。数学が苦手な方は、ここから始めるのがおすすめです。「解説 → 例題 → 演習 → 総合確認」の順に、パターンごとに学べます。</div>
       <div class="card-footer-link">学習する <span>→</span></div>
     </a>
 
@@ -356,57 +373,12 @@
       <div class="card-footer-link">学習する <span>→</span></div>
     </a>
 
-    <!-- SPI 漢字・語句 -->
-    <a class="subject-card s11" href="https://realizefield.github.io/spi/spi-kanji/index.html" target="_blank">
-      <div class="card-top">
-        <div class="card-emoji">📝</div>
-        <div class="card-info">
-          <div class="card-category">SPI</div>
-          <div class="card-name">漢字・語句 パターン学習コース</div>
-          <div class="card-level">⭐〜⭐⭐　全16パターン</div>
-          <div class="shared-badge">🏢 就活・転職・公務員試験対応</div>
-        </div>
-      </div>
-      <div class="card-desc">漢字の読み書き、語句の意味、2語の関係を、出題パターンごとに5問ずつ練習します。まちがえた問題は「苦手カード」に集まり、くり返し復習できます。</div>
-      <div class="card-footer-link">学習する <span>→</span></div>
-    </a>
-
-    <!-- SPI 計算の基礎 -->
-    <a class="subject-card s11" href="https://realizefield.github.io/spi/SPI_kiso_index.html" target="_blank">
-      <div class="card-top">
-        <div class="card-emoji">🔥</div>
-        <div class="card-info">
-          <div class="card-category">SPI</div>
-          <div class="card-name">計算の基礎（分数〜連立方程式）</div>
-          <div class="card-level">⭐　全6分野・42単元</div>
-          <div class="shared-badge">🏢 就活・転職・公務員試験対応</div>
-        </div>
-      </div>
-      <div class="card-desc">分数・小数・正負の数・文字式・一次方程式・連立方程式。計算をわすれてしまった方は、ここから。学習するたびにパネルの色が赤・橙・黄…と変わります。</div>
-      <div class="card-footer-link">学習する <span>→</span></div>
-    </a>
-
-    <!-- SPI-H 言語対策基礎 -->
-    <a class="subject-card s11" href="https://realizefield.github.io/j-kanji/kounin-kanji-index.html" target="_blank">
-      <div class="card-top">
-        <div class="card-emoji">📖</div>
-        <div class="card-info">
-          <div class="card-category">SPI</div>
-          <div class="card-name">SPI-H 言語対策基礎（漢字）</div>
-          <div class="card-level">⭐　言語の基礎</div>
-          <div class="shared-badge">🏢 就活・転職・公務員試験対応</div>
-        </div>
-      </div>
-      <div class="card-desc">漢字の読み書きなど、言語分野の土台をつくります。</div>
-      <div class="card-footer-link">学習する <span>→</span></div>
-    </a>
-
     <!-- SPI 事務処理・文章題・確率・表とグラフ -->
     <a class="subject-card s11" href="https://realizefield.github.io/spi/SPI_jimu_index.html" target="_blank">
       <div class="card-top">
         <div class="card-emoji">🧩</div>
         <div class="card-info">
-          <div class="card-category">SPI</div>
+          <div class="card-category">SPI 非言語</div>
           <div class="card-name">事務処理・文章題・確率・表とグラフ マスターコース</div>
           <div class="card-level">⭐〜⭐⭐⭐　全11単元・121問</div>
           <div class="shared-badge">🏢 就活・転職・公務員試験対応</div>
@@ -421,8 +393,8 @@
       <div class="card-top">
         <div class="card-emoji">🔎</div>
         <div class="card-info">
-          <div class="card-category">SPI</div>
-          <div class="card-name">推論 マスターコース（SPI-H）</div>
+          <div class="card-category">SPI 非言語</div>
+          <div class="card-name">推論 マスターコース</div>
           <div class="card-level">⭐〜⭐⭐⭐　全4単元・44問</div>
           <div class="shared-badge">🏢 就活・転職・公務員試験対応</div>
         </div>
@@ -436,7 +408,7 @@
       <div class="card-top">
         <div class="card-emoji">⏱️</div>
         <div class="card-info">
-          <div class="card-category">SPI</div>
+          <div class="card-category">SPI 力だめし</div>
           <div class="card-name">模擬試験（制限時間つき・採点つき）</div>
           <div class="card-level">⭐⭐⭐　6種類×3セット</div>
           <div class="shared-badge">🏢 就活・転職・公務員試験対応</div>
@@ -458,6 +430,45 @@
       </div>
       <div class="card-desc">10のコースをまとめて確認できます。数学に自信がない方は「割合・比」から。各パターンの最後の「総合確認」は、制限時間つきで、何度でもやり直せます。</div>
       <div class="card-footer-link">コース一覧を見る <span>→</span></div>
+    </a>
+
+  </div>
+
+  <!-- ── SPI-H 言語（国語） ── -->
+  <div class="section-title">SPI-H 言語対策（国語）</div>
+  <p style="font-size:0.78rem;color:var(--muted);line-height:1.8;margin-bottom:12px;margin-top:-16px;">
+    漢字の読み書き・語句の意味・2語の関係など、SPI-H の国語（言語）分野の対策です。まず「言語対策基礎」で土台をつくり、「漢字・語句 パターン学習」へ進みます。
+  </p>
+  <div class="cards-grid s-h-grid" style="margin-bottom:48px;">
+
+    <!-- SPI-H 言語対策基礎 -->
+    <a class="subject-card s-h" href="https://realizefield.github.io/j-kanji/kounin-kanji-index.html" target="_blank">
+      <div class="card-top">
+        <div class="card-emoji">📖</div>
+        <div class="card-info">
+          <div class="card-category">SPI-H 言語</div>
+          <div class="card-name">SPI-H 言語対策基礎（漢字）</div>
+          <div class="card-level">⭐　言語の基礎</div>
+          <div class="shared-badge">🏢 就活・転職・公務員試験対応</div>
+        </div>
+      </div>
+      <div class="card-desc">漢字の読み書きなど、言語分野の土台をつくります。</div>
+      <div class="card-footer-link">学習する <span>→</span></div>
+    </a>
+
+    <!-- SPI 漢字・語句 -->
+    <a class="subject-card s-h" href="https://realizefield.github.io/spi/spi-kanji/index.html" target="_blank">
+      <div class="card-top">
+        <div class="card-emoji">📝</div>
+        <div class="card-info">
+          <div class="card-category">SPI-H 言語</div>
+          <div class="card-name">漢字・語句 パターン学習コース</div>
+          <div class="card-level">⭐〜⭐⭐　全16パターン</div>
+          <div class="shared-badge">🏢 就活・転職・公務員試験対応</div>
+        </div>
+      </div>
+      <div class="card-desc">漢字の読み書き、語句の意味、2語の関係を、出題パターンごとに5問ずつ練習します。まちがえた問題は「苦手カード」に集まり、くり返し復習できます。</div>
+      <div class="card-footer-link">学習する <span>→</span></div>
     </a>
 
   </div>
